@@ -50,7 +50,9 @@ namespace AssetBeheerPortOfAntwerp
             {
                 var cultures = new List<CultureInfo> {
                     new CultureInfo("en"),
-                    new CultureInfo("fr")
+                   // new CultureInfo("fr"),
+                    new CultureInfo("nl"),
+                   // new CultureInfo("de")
                  };
                 options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("en");
                 options.SupportedCultures = cultures;
